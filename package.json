@@ -1,0 +1,14 @@
+{
+  "name": "composable-marketing-section-engine",
+  "version": "1.0.0",
+  "description": "Composable marketing section schema engine with programmatic WCAG 2.2 accessibility validation, multi-locale hreflang mapping, and automated JSON-LD structured data compilation",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "@types/node": "^20.12.7"
+  }
+}
